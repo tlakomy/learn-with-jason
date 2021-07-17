@@ -8,8 +8,8 @@
   node_bundler = "esbuild"
 
 [redirects]
-  from = ".netlify/functions/hello"
-  to = "/hello"
+  from = "/hello"
+  to = "/.netlify/functions/hello"
   status = 200
 
 
