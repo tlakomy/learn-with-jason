@@ -5,7 +5,7 @@
   publish = "out"
 
 [functions]
-  external_node_modules = ["jquery"]
+  node_bundler = "esbuild"
 
 [redirects]
   from = ".netlify/functions/hello"
